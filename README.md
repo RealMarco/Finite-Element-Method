@@ -1,5 +1,5 @@
 # Finite-Element-Method
-This matlab code is capable of simulating mechanical structures, which can be discretized into Plane Frame Element, Constant Strain Triangular Element or Eight Nodes Quadrilateral Element.
+This matlab code is capable of simulating mechanical structures, which can be discretized into one of these 3 Finite Elements: Plane Frame Element, Constant Strain Triangular Element or Eight Nodes Quadrilateral Element.
 
 Read the **FEA Simulation Manual** for more details 
 
