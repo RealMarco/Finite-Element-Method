@@ -1,0 +1,18 @@
+syms ksi eta
+q=10;t
+
+N3 = (1+ksi)*(1+eta)*(ksi+eta-1)/4; 
+N3=subs(N3, eta, 1);
+f3y=-q*t*int(N3,ksi,-1,1)
+
+N4 = (1-ksi)*(1+eta)*(-ksi+eta-1)/4; 
+N4=subs(N4, eta, 1);
+f4y=-q*t*int(N3,ksi,-1,1)
+
+N7 = (1+eta)*(1+ksi)*(1-ksi)/2; 
+N7=subs(N7,eta,1);
+f7y= -q*t*int(N7,ksi, -1,1)
+
+
+同希：可考虑X方向的力
+算单元应力 再
